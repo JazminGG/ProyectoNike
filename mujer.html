@@ -42,13 +42,20 @@
               <a class="nav-link active menu" aria-current="page" href="ninos.html">Niños</a>
           </li>
           <li class="nav-item">
-            <a href="carrito.html">
-              <div class="input-group input-group-xl p-1">
-                <div class="input-group-append">
-                  <button class="btn btn-outline-secondary" type="button"><img src="./img/Carrito.png" alt="" class="carrito"></button>
+            <div class="input-group input-group-xl p-1">
+              <div class="input-group-append">
+                <button class="btn btn-outline-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseWidthExample"><img src="./img/Carrito.png" alt="" class="carrito"></button>
+                <div>
+                  <div class="collapse" id="collapseExample">
+                    <div class="card card-body">
+                      <div class="alert alert-danger text-center" role="alert">
+                        Este elemento no se encuentra disponible por el momento...
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </a>
+            </div>
           </li>
         </ul>
       </div>
@@ -60,7 +67,7 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav mx-auto">
                       <li class="nav-item p-1">
-                          <a class="nav-link active menu" aria-current="page" href="#calzado"><span class="secciones" style="color: #ba2b2b">Calzado</span></a>
+                          <a class="nav-link active menu" aria-current="page" href="#calzado"><span style="color: #ba2b2b">Calzado</span></a>
                       </li>
                       <li class="nav-item p-1">
                           <a class="nav-link active menu" aria-current="page" href="#ropa"><span style="color: #ba2b2b">Ropa</span></a>
@@ -78,7 +85,7 @@
       <img src="./img/Mujer/MujerTO.jpeg" alt="">
     </div>
     <section id="introduccion" class="d-flex flex-column justify-content-center pt-5 text-center w-50 m-auto"> 
-      <h1 class="p-3 fs-1 border-top border-bottom border-3"> <span style="color: #905392;">PIÉRDELO TODO. GÁNALO TODO.</span></h1>
+      <h1 class="p-3 fs-1 border-top border-bottom border-3">PIÉRDELO TODO. <span style="color: #ba2b2b;">GÁNALO TODO.</span></h1>
     </section>
     <!-- Introducción a Mujer -->
     <section id="introduccion" class="d-flex flex-column justify-content-center pt-5 text-center w-50 m-auto">
@@ -87,12 +94,12 @@
     
     <!-- Sección de Calzado -->
     <section id="calzado"class="d-flex flex-row pt-5 text-center w-50 m-auto p-5">
-      <h1 class="p-3 fs-2 border-top border-5 w-100 fst-italic "><span style="color: #511953;">Calzado</span></h1>
+      <h1 class="p-3 fs-2 border-top border-5 w-100 fst-italic ">Calzado</h1>
     </section>
     <div class="container">
       <!-- Fila 1 -->
       <div class="row row-cols-4 justify-content-center">
-        <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-12 d-flex wrap">
+        <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-12 d-flex wrap c">
           <div class="card mb-3 lh-sm">
             <img src="./img/Mujer/NikeDunkHigh.webp" class="card-img-top" alt="...">
             <div class="card-body">
@@ -103,7 +110,7 @@
             </div>
           </div>
         </div>
-        <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-12 d-flex wrap">
+        <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-12 d-flex wrap c">
           <div class="card mb-3 lh-sm">
             <img src="./img/Mujer/NikeSBZoomBlazerMid.webp" class="card-img-top" alt="...">
             <div class="card-body">
@@ -114,7 +121,7 @@
             </div>
           </div>
         </div>
-        <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-12 d-flex wrap">
+        <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-12 d-flex wrap c">
           <div class="card mb-3 lh-sm">
             <img src="./img/Mujer/NikeAirForce.webp" class="card-img-top" alt="...">
             <div class="card-body">
@@ -125,7 +132,7 @@
             </div>
           </div>
         </div>
-        <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-12 d-flex wrap">
+        <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-12 d-flex wrap c">
           <div class="card mb-3 lh-sm">
             <img src="./img/Mujer/NikeBlazerLowPlatform.webp" class="card-img-top" alt="...">
             <div class="card-body">
@@ -139,7 +146,7 @@
       </div>
       <!-- Fila 2 -->
       <div class="row row-cols-4 justify-content-center">
-        <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-12 d-flex wrap">
+        <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-12 d-flex wrap c">
           <div class="card mb-3 lh-sm">
             <img src="./img/Mujer/NikePegasusTrail.webp" class="card-img-top" alt="...">
             <div class="card-body">
@@ -150,7 +157,7 @@
             </div>
           </div>
         </div>
-        <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-12 d-flex wrap">
+        <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-12 d-flex wrap c">
           <div class="card mb-3 lh-sm">
             <img src="./img/Mujer/NikeCityRep.webp" class="card-img-top" alt="...">
             <div class="card-body">
@@ -161,7 +168,7 @@
             </div>
           </div>
         </div>
-        <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-12 d-flex wrap">
+        <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-12 d-flex wrap c">
           <div class="card mb-3 lh-sm">
             <img src="./img/Mujer/NikeVictoryOne.webp" class="card-img-top" alt="...">
             <div class="card-body">
@@ -172,7 +179,7 @@
             </div>
           </div>
         </div>
-        <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-12 d-flex wrap">
+        <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-12 d-flex wrap c">
           <div class="card mb-3 lh-sm">
             <img src="./img/Mujer/NikeVictoryOne2.webp" class="card-img-top" alt="...">
             <div class="card-body">
@@ -188,12 +195,12 @@
 
     <!-- Sección de Ropa -->
     <section id="ropa"class="d-flex flex-row pt-5 text-center w-50 m-auto p-5">
-        <h1 class="p-3 fs-2 border-top border-5 w-100 fst-italic"><span style="color: #511953;">Ropa</span></h1>
+        <h1 class="p-3 fs-2 border-top border-5 w-100 fst-italic">Ropa</h1>
       </section>
       <div class="container">
         <!-- Fila 1 -->
         <div class="row row-cols-4 justify-content-center">
-          <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-12 d-flex wrap">
+          <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-12 d-flex wrap c">
             <div class="card mb-3 lh-sm">
               <img src="./img/Mujer/NikeDri-FitOne.webp" class="card-img-top" alt="...">
               <div class="card-body">
@@ -204,7 +211,7 @@
               </div>
             </div>
           </div>
-          <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-12 d-flex wrap">
+          <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-12 d-flex wrap c">
             <div class="card mb-3 lh-sm">
               <img src="./img/Mujer/PlayeraMangaLarga.webp" class="card-img-top" alt="...">
               <div class="card-body">
@@ -215,7 +222,7 @@
               </div>
             </div>
           </div>
-          <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-12 d-flex wrap">
+          <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-12 d-flex wrap c">
             <div class="card mb-3 lh-sm">
               <img src="./img/Mujer/Jordan.webp" class="card-img-top" alt="...">
               <div class="card-body">
@@ -226,7 +233,7 @@
               </div>
             </div>
           </div>
-          <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-12 d-flex wrap">
+          <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-12 d-flex wrap c">
             <div class="card mb-3 lh-sm">
               <img src="./img/Mujer/CamisetaMujer.webp" class="card-img-top" alt="...">
               <div class="card-body">
@@ -240,7 +247,7 @@
         </div>
         <!-- Fila 2 -->
         <div class="row row-cols-4 justify-content-center">
-          <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-12 d-flex wrap">
+          <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-12 d-flex wrap c">
             <div class="card mb-3 lh-sm">
               <img src="./img/Mujer/PlayeraMangaCorta.webp" class="card-img-top" alt="...">
               <div class="card-body">
@@ -251,7 +258,7 @@
               </div>
             </div>
           </div>
-          <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-12 d-flex wrap">
+          <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-12 d-flex wrap c">
             <div class="card mb-3 lh-sm">
               <img src="./img/Mujer//PrendaCorta.webp" class="card-img-top" alt="...">
               <div class="card-body">
@@ -262,7 +269,7 @@
               </div>
             </div>
           </div>
-          <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-12 d-flex wrap">
+          <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-12 d-flex wrap c">
             <div class="card mb-3 lh-sm">
               <img src="./img/Mujer/TopCropped.webp" class="card-img-top" alt="...">
               <div class="card-body">
@@ -273,7 +280,7 @@
               </div>
             </div>
           </div>
-          <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-12 d-flex wrap">
+          <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-12 d-flex wrap c">
             <div class="card mb-3 lh-sm">
               <img src="./img/Mujer/PlayeraCropped.webp" class="card-img-top" alt="...">
               <div class="card-body">
@@ -288,12 +295,12 @@
       </div>
     <!-- Sección de Accesorio y equpo -->
     <section id="accesoriosyequipo"class="d-flex flex-row pt-5 text-center w-50 m-auto p-5">
-      <h1 class="p-3 fs-2 border-top border-5 w-100 fst-italic"><span style="color: #511953;">Accesorios y equipo</span></h1>
+      <h1 class="p-3 fs-2 border-top border-5 w-100 fst-italic">Accesorios y equipo</h1>
     </section>
     <div class="container">
       <!-- Fila 1 -->
       <div class="row row-cols-4 justify-content-center">
-        <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-12 d-flex wrap">
+        <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-12 d-flex wrap c">
           <div class="card mb-3 lh-sm">
             <img src="./img/Mujer/BolsaNikeOne.webp" class="card-img-top" alt="...">
             <div class="card-body">
@@ -304,7 +311,7 @@
             </div>
           </div>
         </div>
-        <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-12 d-flex wrap">
+        <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-12 d-flex wrap c">
           <div class="card mb-3 lh-sm">
             <img src="./img/Mujer/MiniMochila.webp" class="card-img-top" alt="...">
             <div class="card-body">
@@ -315,7 +322,7 @@
             </div>
           </div>
         </div>
-        <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-12 d-flex wrap">
+        <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-12 d-flex wrap c">
           <div class="card mb-3 lh-sm">
             <img src="./img/Mujer/NikeGymClub.webp" class="card-img-top" alt="...">
             <div class="card-body">
@@ -326,7 +333,7 @@
             </div>
           </div>
         </div>
-        <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-12 d-flex wrap">
+        <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-12 d-flex wrap c">
           <div class="card mb-3 lh-sm">
             <img src="./img/Mujer/MiniMochilaLuxe.webp" class="card-img-top" alt="...">
             <div class="card-body">
@@ -340,7 +347,7 @@
       </div>
       <!-- Fila 2 -->
       <div class="row row-cols-4 justify-content-center">
-        <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-12 d-flex wrap">
+        <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-12 d-flex wrap c">
           <div class="card mb-3 lh-sm">
             <img src="./img/Mujer/NikeApex.webp" class="card-img-top" alt="...">
             <div class="card-body">
@@ -351,7 +358,7 @@
             </div>
           </div>
         </div>
-        <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-12 d-flex wrap">
+        <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-12 d-flex wrap c">
           <div class="card mb-3 lh-sm">
             <img src="./img/Mujer/NikeDri-FitAce.webp" class="card-img-top" alt="...">
             <div class="card-body">
@@ -362,7 +369,7 @@
             </div>
           </div>
         </div>
-        <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-12 d-flex wrap">
+        <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-12 d-flex wrap c">
           <div class="card mb-3 lh-sm">
             <img src="./img/Mujer/JordanApex.webp" class="card-img-top" alt="...">
             <div class="card-body">
@@ -373,7 +380,7 @@
             </div>
           </div>
         </div>
-        <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-12 d-flex wrap">
+        <div class="col col-xl-3 col-lg-3 col-md-6 col-sm-12 d-flex wrap c">
           <div class="card mb-3 lh-sm">
             <img src="./img/Mujer/Calcetines.webp" class="card-img-top" alt="...">
             <div class="card-body">

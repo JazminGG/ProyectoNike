@@ -36,7 +36,7 @@ a{
     color: #2e2c2c; 
     letter-spacing: 1px;
   }
-/*Media querys*/
+   /*Media querys*/
 @media (max-width:1400px){
   .n{
     width: auto;
@@ -77,5 +77,11 @@ a{
 }
 .orden{
   justify-content: center !important;
+}
+.c{
+  width: auto;
+}
+.f{
+  font-size: 15px !important;
 }
 }
